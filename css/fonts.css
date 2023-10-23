@@ -1,0 +1,13 @@
+@font-face{
+    font-family: "Roboto-Regular";
+    font-style: normal;
+    font-weight: normal;
+    src:url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: "helvetica_regular";
+    font-style: normal;
+    font-weight: normal;
+    src:url(../fonts/helvetica_regular.otf)
+}

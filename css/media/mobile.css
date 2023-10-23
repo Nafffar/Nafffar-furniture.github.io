@@ -1,0 +1,28 @@
+@media (max-width: 768px){
+    nav .burger{
+        display: block;
+    }
+   
+    
+    nav ul{
+        display: none;
+    }
+    .telephone{
+        display: none;
+    }
+
+    nav .burger:hover + ul, /*+ означает следующий элемент и только он после burger (при наличии нескольких ul)*/
+    nav ul:hover{
+        display: block;
+        position: absolute;
+        z-index: 2;  
+        top: 45px;
+
+    }
+
+    nav li, .telephone{
+        display: block;
+        width: 100%;
+    }
+
+}
